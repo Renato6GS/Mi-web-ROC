@@ -1,0 +1,21 @@
+{
+  "name": "mi-web-roc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "co": "sui-mono commit",
+    "check": "./node_modules/.bin/sui-mono check",
+    "release": "./node_modules/.bin/sui-mono release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@s-ui/mono": "2.34.0"
+  }
+}
