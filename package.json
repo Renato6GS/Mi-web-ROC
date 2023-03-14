@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "co": "sui-mono commit",
-    "check": "./node_modules/.bin/sui-mono check",
-    "release": "./node_modules/.bin/sui-mono release",
+    "check": "sui-mono check",
+    "release": "sui-mono release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

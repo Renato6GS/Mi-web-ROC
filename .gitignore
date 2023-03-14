@@ -14,14 +14,17 @@ projects/*/node_modules
 
 # testing
 /coverage
+/projects/*/coverage
 
 # next.js
 /.next/
+/projects/*/.next/
 /out/
+/projects/*/out/
 
 # production
-/build
 /projects/*/build
+/projects/*/projects/*/build
 
 # misc
 .DS_Store
